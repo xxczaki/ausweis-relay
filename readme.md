@@ -32,16 +32,6 @@ Needs Python 3 (built into macOS) and sudo for `tcpdump`. Phone and Mac must be 
 
 Stop with Ctrl+C.
 
-## Troubleshooting
-
-- **Nothing is relayed:** the packets aren't reaching the Mac. Check that the phone's AusweisApp has Local Network permission (iOS Settings → AusweisApp), that both devices are on the same network, and that the network doesn't isolate clients.
-- **"no 'addresses' field" warning:** the phone runs AusweisApp older than 2.3.2. Update it.
-- **Phone appears but connecting fails:** check System Settings → Privacy & Security → Local Network → AusweisApp on the Mac.
-
-## Note
-
-This gets around your firewall for one app's discovery packets only, and only while the script runs. If your Mac is managed by your employer, it's polite to let IT know.
-
 ## License
 
 MIT
